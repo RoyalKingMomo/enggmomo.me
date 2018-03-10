@@ -11,8 +11,9 @@
     height: 100%;
     width: 100%;
     background-color: #0F0;
-    overflow-x: scroll;
+    overflow-x: visible;
     overflow-y: hidden;
+    white-space: nowrap;
 }
 
 .inner {
