@@ -5,6 +5,14 @@
     color: #FFF;
 }
 
+li,
+a {
+    color: #999999;
+    text-decoration: none !important;
+    list-style: none !important;
+    font-weight: 200;
+}
+
 #scroll {
     position: fixed;
     top: 0;
@@ -32,6 +40,11 @@
     background-color: #1A1A1A;
 }
 
+.about h1 {
+    margin-left: 0em;
+    font-size: 1in;
+}
+
 .footer {
     width: 40%;
     margin-top: 2vh;
@@ -43,14 +56,14 @@
 
 .feed {
     z-index: 900;
-    transition: all 0.45s;
+    transition: all 0.2s;
     vertical-align: top;
 }
 
 .feed:hover {
     width: 38.5vh;
     height: 110vh;
-    transition: all 0.45s;
+    transition: all 0.2s;
 }
 
 .innerinner {
@@ -80,4 +93,16 @@
 
 #feed5 {
     background-color: blueviolet;
+}
+
+
+#bottomNavLinks {
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+}
+
+#bottomNavLinks li {
+    display: inline-block;
+    padding-right: 0.3in;
 }
