@@ -13,6 +13,15 @@ a {
     font-weight: 200;
 }
 
+a h1 {
+    color: #FFF;
+}
+
+h3,
+p {
+    font-weight: 100;
+}
+
 #scroll {
     position: fixed;
     top: 0;
@@ -109,8 +118,8 @@ a {
 }
 
 #feed5 {
-    background: linear-gradient( rgba(0, 0, 0, 0.75),
-    rgba(0, 0, 0, 0.75),
+    background: linear-gradient( rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.55),
     rgba(0, 0, 0, 0)), url(../assets/hacking.jpg);
     background-size: cover;
     background-position: left center;
