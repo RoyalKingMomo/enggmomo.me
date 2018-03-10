@@ -38,16 +38,16 @@
     margin-right: 2vh;
     height: 96vh !important;
     background-color: #1A1A1A;
+    vertical-align: top;
 }
 
 .feed {
-    transform: translateY(-2vh);
     z-index: 900;
     transition: all 0.45s;
+    vertical-align: top;
 }
 
 .feed:hover {
-    transform: translate(0vh, -7vh);
     width: 38.5vh;
     height: 110vh;
     transition: all 0.45s;
@@ -56,6 +56,8 @@
 .innerinner {
     margin: 0;
     padding: 4em 4em 4em 4em;
+    white-space: normal;
+
 }
 
 /*Feed specific CSS*/
