@@ -1,0 +1,27 @@
+/*font-family: 'Raleway', sans-serif;*/
+
+:root {
+    font-family: 'Raleway', sans-serif;
+}
+
+#scroll {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #0F0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.inner {
+
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 1000px;
+
+}
+
+body {}
