@@ -52,12 +52,14 @@ a {
     height: 96vh !important;
     background-color: #1A1A1A;
     vertical-align: top;
+    margin-left: 2px;
 }
 
 .feed {
     z-index: 900;
     transition: all 0.2s;
     vertical-align: top;
+    margin-left: 2px;
 }
 
 .feed:hover {
@@ -76,20 +78,30 @@ a {
 /*Feed specific CSS*/
 
 #feed1 {
-    background: linear-gradient( rgba(0, 0, 0, 0.75),
-    rgba(0, 0, 0, 0.75),
-    rgba(0, 0, 0, 0.25)), url(../assets/hacked.jpg);
+    background: linear-gradient( rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0)), url(../assets/hacked.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #feed2 {
-    background-color: #33CC99;
+    background: linear-gradient( rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0)), url(../assets/ampere.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #feed3 {
-    background-color: #CC3333;
+    background: linear-gradient( rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0.55),
+    rgba(0, 0, 0, 0)), url(../assets/calhacks.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #feed4 {
@@ -97,7 +109,12 @@ a {
 }
 
 #feed5 {
-    background-color: blueviolet;
+    background: linear-gradient( rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)), url(../assets/hacking.jpg);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
 }
 
 
