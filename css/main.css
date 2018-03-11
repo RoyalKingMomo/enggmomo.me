@@ -29,7 +29,7 @@ p {
     height: 100%;
     width: 100%;
     background-color: #111;
-    overflow-x: visible;
+    overflow-x: scroll hidden;
     overflow-y: hidden;
     white-space: nowrap;
 }
@@ -43,10 +43,20 @@ p {
 
 .about {
     width: 40%;
+    min-width: 700px;
     margin-top: 2vh;
     margin-left: 2vh;
-    height: 96vh !important;
-    background-color: #1A1A1A;
+    height: 96vh;
+    background: url(../assets/moom.png) center no-repeat;
+    background-size: cover;
+    transition: all 0.2s;
+}
+
+.about:hover {
+    transition: all 0.2s;
+    margin: 0;
+    height: 100vh;
+    width: calc(40% + 2vh);
 }
 
 .about h1 {
@@ -55,13 +65,24 @@ p {
 }
 
 .footer {
-    width: 40%;
+    width: 70%;
     margin-top: 2vh;
     margin-right: 2vh;
-    height: 96vh !important;
-    background-color: #1A1A1A;
+    height: 96vh;
+    background: linear-gradient( rgba(1, 68, 83, 0.75), rgba(39, 39, 52, 0.3)), url(../assets/f00ter.jpg);
+    background-position: center;
+    background-size: cover;
     vertical-align: top;
     margin-left: 2px;
+    transition: all 0.2s;
+    text-align: right;
+}
+
+.footer:hover {
+    transition: all 0.2s;
+    margin: 0vh 0vh 0vh 2px;
+    height: 100vh;
+    width: calc(70% + 2vh);
 }
 
 .feed {
