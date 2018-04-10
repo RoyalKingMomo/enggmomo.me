@@ -179,7 +179,7 @@
         text-decoration: none !important;
         list-style: none !important;
         font-weight: 200;
-        font-size: 2vw;
+        font-size: 3vw;
     }
 
     a h1 {
@@ -191,7 +191,7 @@
     }
 
     h2 {
-        font-size: 3vw;
+        font-size: 5vw;
     }
 
     h3,
@@ -303,7 +303,6 @@
     }
 
     #bottomNavLinks li {
-        display: inline-block;
         padding-right: 0.3in;
     }
 }
