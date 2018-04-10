@@ -219,8 +219,9 @@
     .about {
         width: 100vw;
         height: 100vh;
-        background: url(../assets/moom.png) center no-repeat;
+        background: url(../assets/moom.png) no-repeat;
         background-size: cover;
+        background-position: 70% 0%;
     }
 
     .about h1 {
