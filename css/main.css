@@ -230,6 +230,11 @@
     .footer h3 {
         font-size: 2.5vh;
     }
+    #nameemaildiv {
+        width: 10.8vh;
+        height: 10px;
+        float: right;
+    }
 
 }
 
@@ -441,6 +446,11 @@
 
     .footer h3 {
         font-size: 2.5vw;
+    }
+    #nameemaildiv {
+        width: 10.8vw;
+        height: 10px;
+        float: left;
     }
 
 }
