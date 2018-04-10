@@ -100,37 +100,31 @@
             <div class="innerinner">
                 <h1>So... what's next?</h1>
                 <br>
-                <h3>Let's get in touch!</h3>
+                <h3>That's for you to decide, here's how you can reach me though.</h3>
                 <form action="send.php" method="POST">
-                    <div>
+                    <div class="formHolder">
 
-                        <div>
-                            <input type="text" name="name" id="name-contact-1" placeholder="Enter your name">
-                            <label for="name-contact-1">Name</label>
+                        <div class="textbox">
+                            <input type="email" name="email" id="email-contact-1" placeholder="joe.smith@domain.com">
                         </div>
-
-                        <div class="form-group">
-                            <input type="email" name="email" id="email-contact-1" placeholder="Enter your email">
-                            <label for="email-contact-1">Email</label>
-                        </div>
-
-                    </div>
-
-                    <div>
-
-                        <div>
-                            <textarea name="message" id="message-contact-1" rows="5" placeholder="Your Message"></textarea>
-                            <label for="message-contact-1">Message</label>
-                        </div>
-                        <div>
-                            <input type="submit" value="Send Message">
+                        <span style="width: 10.8vh; height: 10px; float: right;"></span>
+                        <div class="textbox">
+                            <input type="text" name="name" id="name-contact-1" placeholder="Joe Smith">
                         </div>
 
                     </div>
 
-                </form>
+                    <div class="formHolder">
 
-                <form>
+                        <div class="textbox">
+                            <textarea name="message" id="message-contact-1" rows="10" placeholder="Hey Mohammad,&#10;&#10;So here's my story..."></textarea>
+                        </div>
+
+                    </div>
+
+                    <div class="formHolder">
+                        <input class="submitButton" type="submit" value="Send Message">
+                    </div>
 
                 </form>
             </div>
