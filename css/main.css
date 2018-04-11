@@ -166,12 +166,14 @@
         padding-right: 0.3in;
     }
     .textbox {
-
-        background-color: white;
+        background: rgba(255, 255, 255, 0.7);
         right: 0px;
         padding: 2vh 2vh 2vh 2vh;
         float: right;
         text-align: center;
+        border-radius: 0.5vh;
+        border-color: white;
+        border: solid thin;
     }
 
     .textbox input,
@@ -183,11 +185,13 @@
     #name-contact-1 {
         font-family: 'Raleway', sans-serif;
         width: 30vh;
+        background-color: transparent;
     }
 
     #email-contact-1 {
         font-family: 'Raleway', sans-serif;
         width: 30vh;
+        background-color: transparent;
     }
 
     #message-contact-1 {
@@ -195,6 +199,7 @@
         border-style: none;
         resize: none;
         font-family: 'Raleway', sans-serif;
+        background-color: transparent;
     }
 
     .submitButton {
@@ -382,12 +387,15 @@
     /*edit from here*/
     .textbox {
 
-        background-color: white;
+        background: rgba(255, 255, 255, 0.7);
         right: 0px;
         padding: 2vw 2vw 2vw 2vw;
         float: left;
         text-align: center;
         font-size: 0.5em;
+        border-radius: 0.5vw;
+        border-color: white;
+        border: solid thin;
     }
 
     .textbox input,
@@ -400,11 +408,13 @@
     #name-contact-1 {
         font-family: 'Raleway', sans-serif;
         width: 30vw;
+        background-color: transparent;
     }
 
     #email-contact-1 {
         font-family: 'Raleway', sans-serif;
         width: 30vw;
+        background-color: transparent;
     }
 
     #message-contact-1 {
@@ -412,6 +422,7 @@
         border-style: none;
         resize: none;
         font-family: 'Raleway', sans-serif;
+        background-color: transparent;
     }
 
     .submitButton {
@@ -421,7 +432,7 @@
         font-size: 2.5vw;
         padding: 0 3vw 0 3vw;
         color: white;
-        background: rgba(0, 0, 0, 0);
+        background: rgba(255, 255, 255, 0);
         border-left-style: none;
         border-right-style: none;
         border-top-style: none;
