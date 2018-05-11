@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Life of Mo</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="stylesheets/style.css" media="(min-width: 500px)" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="scroll">
+        <div class="inner about">
+            <div class="innerinner">
+                <h1>Tinkering, Thinking, Tweaking.</h1>
+                <h2>Hi there, I'm Mohammad, a second year Electrical Engineering Student at the University of Alberta who loves trying out everything.</h2>
+                <br><br><br>
+                <ul id=bottomNavLinks>
+                    <li>
+                        <a href="https://github.com/RoyalKingMomo">
+                        GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com/in/mohammadalahdal">
+                        Linkedin
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/mo.with.a.camera">
+                        Photography
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/enggmomo">
+                        Instagram
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/royalkingmomo">
+                        Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://trello.com/b/PCScaNu9/my-life">
+                        Trello
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <% for (var i=0; i<10; i++) { %>
+            <style>
+                @media(orientation: landscape) {
+                    #feed<%= i+1%>{
+                        background-color: #3399<%=i%><%=i%>;
+                    }
+                }
+                @media(orientation: portrait) {
+                    #feed<%= i+1%>{
+                        background-color: #3399<%=i%><%=i%>;
+                    }
+                }
+            </style>
+            <a href="https://github.com/CalgaryHacks2018/particle_run">
+                <div id="feed<%=i+1%>" class="inner feed">
+                    <div class="innerinner">
+                        <h1>
+                            CalgaryHacks 2018
+                        </h1>
+                    </div>
+                </div>
+            </a>
+        <% } %>
+        <div id="footer" class="inner footer">
+          <div class="innerinner">
+              <h1>So... what's next?</h1>
+              <br>
+              <h3>That's for you to decide, here's how you can reach me though.</h3>
+              <form action="send.php" method="POST">
+                  <div class="formHolder">
+
+                      <div class="textbox">
+                          <input type="email" name="email" id="email-contact-1" placeholder="joe.smith@domain.com">
+                      </div>
+                      <span id="nameemaildiv"></span>
+                      <div class="textbox">
+                          <input type="text" name="name" id="name-contact-1" placeholder="Joe Smith">
+                      </div>
+
+                  </div>
+
+                  <div class="formHolder">
+
+                      <div class="textbox">
+                          <textarea name="message" id="message-contact-1" rows="10" placeholder="Hey Mohammad,&#10;&#10;So here's my story..."></textarea>
+                      </div>
+
+                  </div>
+
+                  <div class="formHolder">
+                      <input class="submitButton" type="submit" value="Send Message">
+                  </div>
+
+              </form>
+          </div>
+      </div>
+  </div>
+</body>
+
+</html>

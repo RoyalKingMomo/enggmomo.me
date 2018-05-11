@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "5ae81654105e229d8c1811e6",
+    "picture": "/images/hacked.jpg",
+    "title": "HackED2018",
+    "styleHOR": "",
+    "styleLAN": "",
+    "link" : ""
+  },
+  {
+    "_id": "5ae81654105e229d8c1811e7",
+    "picture": "/images/ampere.JPG",
+    "title": "AmpereLabs",
+    "styleHOR": "",
+    "styleLAN": "",
+    "link" : ""
+  },
+  {
+    "_id": "5ae81654105e229d8c1811e8",
+    "picture": "/images/calhacks.jpg",
+    "title": "CalgaryHacks 2018",
+    "styleHOR": "",
+    "styleLAN": "",
+    "link" : ""
+  },
+  {
+    "_id": "5ae81654105e229d8c1811e9",
+    "picture": "/images/hacking.jpg",
+    "title": "iOS Tweak Development and Exploitation",
+    "styleHOR": "",
+    "styleLAN": "",
+    "link" : ""
+  }
+]
