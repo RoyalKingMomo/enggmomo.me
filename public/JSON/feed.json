@@ -1,34 +1,30 @@
 [
   {
     "_id": "5ae81654105e229d8c1811e6",
-    "picture": "/images/hacked.jpg",
     "title": "HackED2018",
-    "styleHOR": "",
-    "styleLAN": "",
-    "link" : ""
+    "styleHOR": "background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)), url(../images/hacked.jpg); background-position: center; background-size: cover; background-repeat: no-repeat;",
+    "stylePOR": "background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)), url(../images/hacked.jpg); background-position: 0% 20%; background-size: cover; background-repeat: no-repeat;",
+    "link" : "http://hacked.compeclub.com/"
   },
   {
     "_id": "5ae81654105e229d8c1811e7",
-    "picture": "/images/ampere.JPG",
     "title": "AmpereLabs",
-    "styleHOR": "",
-    "styleLAN": "",
-    "link" : ""
+    "styleHOR": "background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)), url(../images/ampere.JPG); background-size: cover; background-position: center; background-repeat: no-repeat;",
+    "stylePOR": "background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)), url(../images/ampere.JPG); background-size: cover; background-position: 0% 30%; background-repeat: no-repeat;",
+    "link" : "https://amperelabs.ca/"
   },
   {
     "_id": "5ae81654105e229d8c1811e8",
-    "picture": "/images/calhacks.jpg",
     "title": "CalgaryHacks 2018",
-    "styleHOR": "",
-    "styleLAN": "",
-    "link" : ""
+    "styleHOR": "background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)), url(../images/calhacks.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;",
+    "stylePOR": "background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)), url(../images/calhacks.jpg); background-size: cover; background-position: top; background-repeat: no-repeat;",
+    "link" : "https://github.com/RoyalKingMomo/particle_run/"
   },
   {
     "_id": "5ae81654105e229d8c1811e9",
-    "picture": "/images/hacking.jpg",
     "title": "iOS Tweak Development and Exploitation",
-    "styleHOR": "",
-    "styleLAN": "",
-    "link" : ""
+    "styleHOR": "background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)), url(../images/hacking.jpg); background-size: cover; background-position: left center; background-repeat: no-repeat;",
+    "stylePOR": "background: linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0)), url(../images/hacking.jpg); background-size: cover; background-position: left center; background-repeat: no-repeat;",
+    "link" : "https://github.com/RoyalKingMomo/oledlock/"
   }
 ]

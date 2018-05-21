@@ -9,11 +9,6 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
-var fs = require("fs");
-var contents = fs.readFileSync('./public/JSON/feed.json');
-
-var jsonContent = JSON.parse(contents);
-
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

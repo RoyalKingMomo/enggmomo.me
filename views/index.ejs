@@ -52,24 +52,24 @@
             </div>
         </div>
         
-        <% for (var i=0; i<10; i++) { %>
+        <% for (var i=0; i<feed.length; i++) { %>
             <style>
                 @media(orientation: landscape) {
                     #feed<%= i+1%>{
-                        background-color: #3399<%=i%><%=i%>;
+                        <%- feed[i].styleHOR %>
                     }
                 }
                 @media(orientation: portrait) {
                     #feed<%= i+1%>{
-                        background-color: #3399<%=i%><%=i%>;
+                        <%- feed[i].stylePOR %>
                     }
                 }
             </style>
-            <a href="https://github.com/CalgaryHacks2018/particle_run">
+            <a href="<%- feed[i].link %>">
                 <div id="feed<%=i+1%>" class="inner feed">
                     <div class="innerinner">
                         <h1>
-                            CalgaryHacks 2018
+                            <%- feed[i].title %>
                         </h1>
                     </div>
                 </div>
